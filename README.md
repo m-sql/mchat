@@ -32,7 +32,19 @@
 |向微信群发信息|message/group|post|'message'=>'hello myRomm is 智能聊天','group'=>'微信群名称'|100%|
 |向某个用户发信息|message/user|post|'message'=>'hello myNickname is 飞天','user'=>'微信个人昵称'|100%|
 
-## 5.限制声明
+## 5.0使用说明
+* 依赖：node > 10+
+
+* 下载node扩展包：链接：https://pan.baidu.com/s/10hE55lOdxHjhnQem5LldNw 提取码：f34g 
+```
+tar 解压后使用
+npm run bot.js 
+过程中提示缺少扩展，请自行安装：
+cnpm i 模块名
+```
+* 有疑问请 Email：fomo3d.wiki@gmail.com
+
+## 5.1限制声明
 
 * 从2017年6月下旬开始，使用基于web版微信接入方案存在大概率的被限制登陆的可能性。
  
