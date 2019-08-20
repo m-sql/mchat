@@ -33,7 +33,7 @@
 |向某个用户发信息|message/user|post|'message'=>'hello myNickname is 飞天','user'=>'微信个人昵称'|100%|
 
 ## 5.0使用说明
-* 依赖：node > 10+
+* 依赖：node >= 10
 
 * 下载node扩展包：链接：https://pan.baidu.com/s/10hE55lOdxHjhnQem5LldNw 提取码：f34g 
 ```
@@ -42,7 +42,14 @@ npm run bot.js
 过程中提示缺少扩展，请自行安装：
 cnpm i 模块名
 ```
+* 问题解决
+```
+1、 npm install -g cnpm --registry=https://registry.npm.taobao.org
+2、 cnpm install express imap 
+3、 yum -y install libX11 libXcomposite libXcursor libXdamage libXext libXi libXtst cups-libs libXScrnSaver libXrandr alsa-lib pango atk at-spi2-atk gtk3 
+```
 * 有疑问请 Email：fomo3d.wiki@gmail.com
+* 参考：https://github.com/GoogleChrome/puppeteer/issues/391
 
 ## 5.1限制声明
 
